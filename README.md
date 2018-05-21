@@ -3,22 +3,22 @@ CaptchaService provides a free service that protects your website from spam and 
 
 Implemented with Spring Boot.
 
-Screenshot with example of generated captcha:
+Screenshot with an example of the generated captcha:
 
-<img src="https://github.com/102Rudy/CaptchaService/raw/master/CaptchaService.png?" width="30%">
+<img src="https://github.com/102Rudy/CaptchaService/raw/master/CaptchaService.png" width="30%">
 
-Supported properties of captcha verification system:
+Supported properties of the captcha verification system:
 <ul>
-  <li>length - length of captcha word</li>
+  <li>length - the length of captcha word</li>
   <li>ttl - time to live, limits the time when the generated captcha test is valid</li>
-  <li>amountOfCaptchaTests - max amount of captcha tests in session before the server will ban the session</li>
+  <li>amountOfCaptchaTests - the max amount of captcha tests in a session before the server bans the session</li>
 </ul>
 
-Supported properties of captcha image:
+Supported properties of the captcha image:
 <ul>
-  <li>width, height (for entire captcha image)</li>
-  <li>rotationAmplitude, scaleAmplitude, shearAmplitude (for every letter in captcha)</li>
+  <li>width, height (for the whole captcha image)</li>
+  <li>rotationAmplitude, scaleAmplitude, shearAmplitude (for every letter in the captcha)</li>
 </ul>
 
-Also supported test mode when server sends right answer for captcha. Set property production = false, to enable test mode.
-<br>All properties placed in <b>application.properties</b> file
+A test mode (when the server sends correct answer to the captcha) is also supported. Set the property production = false to enable the test mode.
+<br>All properties are located in the <b>application.properties</b> file.
